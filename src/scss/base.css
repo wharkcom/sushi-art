@@ -9,4 +9,14 @@
 .flex {
   display: flex; }
   .flex--center {
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
+  .flex-column {
+    flex-direction: column; }
+
+main {
+  margin-top: 50px;
+  padding: 10px; }
+
+.text-onDark {
+  color: #fdfdfd; }

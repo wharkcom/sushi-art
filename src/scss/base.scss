@@ -1,3 +1,5 @@
+@import './_variables';
+
 .rlist--inline {
 	margin: 0;
 	padding: 0;
@@ -13,6 +15,11 @@
 
 	&--center {
 		align-items: center;
+		justify-content: center;
+	}
+
+	&-column {
+		flex-direction: column;
 	}
 }
 

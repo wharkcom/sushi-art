@@ -1,0 +1,33 @@
+@import './_variables.scss';
+
+.file-submit {
+	width: 75%;
+	margin: 0 auto;
+	max-width: 800px;
+	border: 1px solid;
+	padding: 0 0 20px;
+
+	input[type='text'] {
+		width: 460px;
+		height: 25px;
+		margin: 10px 20px 10px 0;
+	}
+
+	.dropzone {
+		background: $primary-background;
+		border: 2px dashed $color-primary-0;
+		height: 180px;
+		padding: 20px;
+		text-align: center;
+		width: 200px;
+
+		&:hover {
+			background: $color-primary-1;
+		}
+	}
+
+	img {
+		width: 200px;
+		border: 2px dashed $color-primary-0;
+	}
+}

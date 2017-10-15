@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import ImageUpload from './ImageUpload'
 
 class Admin extends Component {
 
 	render() {
 		return (
 			<div>
-				Admin
+				<ImageUpload />
 			</div>
 		)
 	}

@@ -1,10 +1,22 @@
 header {
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3); }
+  background: #A4DCDE;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 .logo {
   border: 1px solid #333;
   padding: 10px 40px;
-  margin: 5px 5px 5px 20px; }
+  margin: 5px 5px 5px 20px;
+  background: #236467; }
 
 nav {
   margin-left: 20px; }
+  nav a {
+    color: #08393C;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto'; }
+    nav a:hover {
+      color: #AA6D39; }

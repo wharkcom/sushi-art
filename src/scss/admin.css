@@ -1,0 +1,22 @@
+.file-submit {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 800px;
+  border: 1px solid;
+  padding: 0 0 20px; }
+  .file-submit input[type='text'] {
+    width: 460px;
+    height: 25px;
+    margin: 10px 20px 10px 0; }
+  .file-submit .dropzone {
+    background: #eee;
+    border: 2px dashed #236467;
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    width: 200px; }
+    .file-submit .dropzone:hover {
+      background: #A4DCDE; }
+  .file-submit img {
+    width: 200px;
+    border: 2px dashed #236467; }
