@@ -1,0 +1,29 @@
+header {
+	background: $color-primary-1;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.logo {
+	border: 1px solid #333;
+	padding: 10px 40px;
+	margin: 5px 5px 5px 20px;
+	background: $color-primary-0;
+}
+
+nav {
+	margin-left: 20px;
+
+	a {
+		color: $color-primary-3;
+		text-decoration: none;
+		font-weight: bold;
+		font-family: 'Roboto';
+
+		&:hover {
+			color: $color-complement-0;
+		}
+	}
+}

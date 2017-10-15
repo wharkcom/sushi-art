@@ -6,10 +6,12 @@ class ImageList extends Component {
 	render() {
 		const images = [{
 			id: '1',
-			src: 'https://placeimg.com/200/200/animals'
+			src: 'https://placeimg.com/200/200/animals',
+			alt: "dog pic"
 		}, {
 			id: '2',
-			src: 'https://placeimg.com/200/200/nature'
+			src: 'https://placeimg.com/200/200/nature',
+			alt: "tree pic"
 		}]
 
 		return (

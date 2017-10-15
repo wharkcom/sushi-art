@@ -1,0 +1,26 @@
+.rlist--inline {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	li {
+		display: inline-block;
+		padding: 10px;
+	}
+}
+
+.flex {
+	display: flex;
+
+	&--center {
+		align-items: center;
+	}
+}
+
+main {
+	margin-top: $header-height;
+	padding: $gutter-top-md;
+}
+
+.text-onDark {
+	color: $white;
+}
