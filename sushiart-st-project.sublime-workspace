@@ -1,0 +1,1234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pr",
+				"prevNextContent"
+			],
+			[
+				"Title",
+				"Title"
+			],
+			[
+				"a",
+				"advanced-tab"
+			],
+			[
+				"pd",
+				"podcasts"
+			],
+			[
+				"pod",
+				"podcastList"
+			],
+			[
+				"o",
+				"ol\tTag"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"carous",
+				"carousel-homepage"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"last_filter": "install ",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"git blm",
+				"Git: Blame"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git change",
+				"Git: Change Branch"
+			],
+			[
+				"git bran",
+				"Git: Change Branch"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Package Control:  di",
+				"Package Control: Disable Package"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git hunk",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git br",
+				"Git: Change Branch"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"git in",
+				"Git: Init"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"svn",
+				"SVN: (File) Blame"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"HTMLPrettify"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"git branc",
+				"Git: New Branch"
+			],
+			[
+				"git reset",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git re",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git fetch",
+				"Git: Fetch"
+			],
+			[
+				"git check",
+				"Git: Checkout Current File"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"find",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"packagec",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ope",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 463.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"git",
+			"git branch",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/Dev/SushiArt/sushi-art"
+	],
+	"file_history":
+	[
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/templates/header/scss/header.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/templates/header/templates/header/header-tmpl.jade",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/plugins/drawer/scss/drawer.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/plugins/scss/imports.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/scss/build.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/templates/footer/index.jade",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/templates/footer/info.json",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/widgets/institution-banner/scss/institution-banner.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/templates/header/info.json",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/releasedAssets/css/build.css",
+		"/C/Users/William/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/C/Users/William/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/saved-searches/templates/saved-searches/saved-searches-tmpl.jade",
+		"/C/Atypon/source/lit-1710/atypon/literatum/conf/spring/pb2/ux3/ux3-widgets.xml",
+		"/C/Atypon/source/lit-1710/atypon/literatum/conf/spring/pb2/ux3/ux3-literatum-widgets.xml",
+		"/C/Atypon/source/lit-1720/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/ux3/BreadCrumbsController.java",
+		"/G/Drive/Atypon/~UX3/pb-assets/graphql/pub-content-cover.pug",
+		"/C/Atypon/source/lit-1710/atypon/product/ux3/src/java/com/atypon/literatum/admin/client/customization.xml",
+		"/C/Atypon/source/lit-1710/atypon/product/templates/xsl/_ux3/xsl2_citedby.xsl",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/variables/aliases/colors.yaml",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/fonts/icomoon/icomoon.css",
+		"/G/Drive/Atypon/~UX3/pb-assets/styles/less/publication-content.less",
+		"/G/Drive/Atypon/~UX3/pb-assets/styles/will-ux3.less",
+		"/C/Atypon/source/lit-1720/atypon/product/templates/jsp/pb2/widgets/pageBuilderLiteratum/contentDisplay/serialHistory.jsp",
+		"/C/Atypon/source/lit-1710/atypon/literatum/conf/spring/pb2/literatum/literatum-widgets.xml",
+		"/C/Atypon/source/lit-1720/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/contentDisplay/SerialHistoryController.java",
+		"/C/Atypon/source/github/atypon/styleguide/scripts/create_prod_template.py",
+		"/C/Atypon/source/lit-1720/atypon/literatum/conf/spring/pb2/ux3/ux3-widgets.xml",
+		"/C/Atypon/source/lit-1710/atypon/literatum/src/java/com/atypon/literatum/acs/content/ContentFormat.java",
+		"/C/Atypon/source/lit-1720/atypon/product/templates/jsp/pb2/widgets/graphql/articleTools/articleTools.graphql",
+		"/C/Atypon/source/lit-1720/atypon/product/templates/jsp/pb2/widgets/ux3-graphql/Discoverability/search-results/search-results.graphql",
+		"/C/Atypon/source/lit-1720/atypon/product/midtier/conf/midtier.props.pb2.ux3.xml",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/esspp/scss/build.scss",
+		"/C/Atypon/source/lit-1710/atypon/product/ux3/conf/ux3.props.xml",
+		"/C/Users/William/Downloads/current-issue.pug",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/institution-banner/scss/institution-banner.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/cover-image/templates/data/single-cover-image.json",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/faseb/widgets/cover-image/info.json",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/gulpfile.js",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/package.json",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/faseb/widgets/cover-image/templates/data/single-cover-image.json",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/faseb/widgets/cover-image/templates/cover-image/cover-image-tmpl.jade",
+		"/C/Atypon/source/lit-1720/atypon/product/physio/conf/litservices.xml",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/physio/widgets/publication-content/templates/article/details-tab-tmpl.jade",
+		"/C/Atypon/source/lit-1710/atypon/literatum/src/java/com/atypon/literatum/customization/DefaultRequestParamsNormalizer.jflex",
+		"/C/Atypon/source/lit-1720/atypon/publish/src/java/com/atypon/publish/frontend/graphql/tag/TagLinkFetcher.java",
+		"/C/Atypon/source/lit-1720/atypon/publish/src/java/com/atypon/publish/action/search/ShowTopic.java",
+		"/C/Atypon/source/lit-1720/atypon/product/templates/jsp/pb2/widgets/ux3-graphql/Discoverability/topical-index/topical-index.graphql",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/fsg/fum/widgets/search-result/info.json",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/browse-journals/templates/browse-journals/browse-journals-tmpl.jade",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/topical-index/templates/topical-index/topical-index-tmpl.jade",
+		"/G/Drive/Atypon/~UX3/pb-assets/graphql/browse.pug",
+		"/G/Drive/Atypon/FSG/Taxonomies/Subject/taxonomy_subject-categories.txt",
+		"/C/Atypon/source/lit-1720/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/ux3/search/TopicalIndexWidgetController.java",
+		"/G/Drive/Atypon/~UX3/pb-assets/graphql/browse.graphql",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/search-result/templates/search-result/search-result-tmpl.jade",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/publication-content/templates/article/article-tmpl.jade",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/publication-content/templates/article/map/map-article-tmpl.jade",
+		"/G/Drive/temp.html",
+		"/G/Drive/Atypon/Useful_Info/SVN Instructions.txt",
+		"/G/Drive/Whee/Sublime Text License.txt",
+		"/C/Users/William/Downloads/pub-content-cover.graphql",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/show-recommended/templates/show-recommended/show-recommended-tmpl.jade",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/publication-list/templates/publication-list/publication-list-tmpl.jade",
+		"/G/Drive/Documents/Traveling/Places To Visit.txt",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/bandj/basic/scss/imports.scss",
+		"/G/Drive/Documents/Traveling/Carolines House.txt",
+		"/G/Drive/Atypon/~UX3/Widget Mockups/Content Navigation Widget - working notes.txt",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/components/pagination/templates/pagination/pagination-tmpl.jade",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/contentDisplay/DigitalObjectNavigationController.java",
+		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/acs/metadata/DigitalObjectPublication.java",
+		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/_ux3/_pericles/pb2/widgets/core/html-page-head-product-styles.ftl",
+		"/C/Users/William/Downloads/gdac.broadinstitute.org_BRCA.Clinical_Pick_Tier1.Level_4.2016012800.0.0.txt",
+		"/C/Users/William/Downloads/BMS_Gene_Signatures.gmt.txt",
+		"/G/Drive/Atypon/~UX3/SourceJS Install CMDs.txt",
+		"/C/Atypon/source/github/atypon/styleguide/.gitignore",
+		"/G/Drive/Atypon/Useful_Info/Cloning Atypon Git Repo.txt",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/basic/colors/index.jade",
+		"/G/Drive/Atypon/~UX3/SourceJS Install Instructions.txt",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/basic/colors/scss/helpers/palette.css",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/components/issue-item/scss/issue-item.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/variables/scss/colors-variables.scss",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/hope/variables/scss/colors-variables.scss",
+		"/G/Drive/Atypon/atypon-st-project.sublime-project",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/ascb/build/css/build.css.map",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/build/testfile.txt",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/detectmeTemp.txt",
+		"/G/Drive/Atypon/Style Guide Setup Instructions",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/ux3/discoverability/TopContentWidgetController.java",
+		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/pb2/widgets/ux3-graphql/top-content-widget/topContentWidget.graphql",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/pagebuilder/extensions/impl/jade/GraphQLJadeRenderer.java",
+		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/ux3/widgets/favorites/index.jade",
+		"/C/Atypon/source/github/atypon/styleguide/README.md",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/contentDisplay/ListOfIssuesController.java",
+		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/acs/content/JournalRequest.java",
+		"/C/Users/William/Downloads/report (1).xml",
+		"/C/Users/William/Downloads/report (2).xml",
+		"/C/Users/William/Downloads/report.xml",
+		"/C/Users/William/Downloads/report.html",
+		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/frontend/graphql/content/type/IssueGroupTypeEnumProvider.java",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/bridge/service/BackstageAreaTranslator.java",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/services/impl/LiteratumBackstageAreaTranslatorImpl.java",
+		"/C/Atypon/source/lit-1710/atypon/literatum/conf/literatum.props.xml",
+		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/acs/metadata/IContentGroupType.java",
+		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/modules/snippedit/stories/FieldValueType.java",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/services/impl/BackstageAreaTranslatorImpl.java",
+		"/G/Drive/Atypon/~UX3/pb-assets/styles/less/header.less",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/discoverability/MostRecentController.java",
+		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/literatum/literatum-widgets.xml",
+		"/C/Atypon/source/lit-1710/atypon/literatum/conf/spring/raa/raa-frontend.xml",
+		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/_ux3/pb2/widgets/pageBuilderLiteratum/profile/raa/loginInformation.jsp",
+		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/_style2/_rsdTheme/_fum/pb2/widgets/pageBuilderLiteratum/profile/raa/emails.jsp",
+		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/_ux3/pb2/widgets/pageBuilderLiteratum/profile/raa/emails.jsp",
+		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/common/profile-widgets.xml",
+		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/ux3/ux3-widgets.xml",
+		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/_style2/_rsdTheme/_endo/pb2/widgets/pageBuilderLiteratum/ecomm/accessDenial/responsiveAccessDenial/responsiveAccessDenial.jsp",
+		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/pageBuilderLiteratum/ecomm/accessDenial/accessDenial.jsp",
+		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/pageBuilderLiteratum/profile/raa/sessionTokenForm.jsp",
+		"/G/Drive/Atypon/~UX3/hope-toc.pug",
+		"/G/Drive/Atypon/~UX3/hope-toc",
+		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/discoverability/MultiSearchController.java",
+		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/pb2/widgets/pageBuilderLiteratum/discoverability/multiSearchView.jsp",
+		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/ux3-graphql/Discoverability/show-recommended/show-recommended.graphql",
+		"/C/Atypon/source/lit-1630/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/ux3/search/CombinedRecommendationsController.java",
+		"/C/Atypon/source/lit-1630/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/ux3/discoverability/TopContentWidgetController.java",
+		"/G/Dev/Hackernews/hackernews-react-apollo/public/index.html",
+		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/common/layout-widgets.xml",
+		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/layout/pageBody.ftl"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"*.xml",
+			"",
+			"*.jsp",
+			"",
+			"*.yaml",
+			"*.scss",
+			"",
+			"*.xml",
+			"",
+			"*.xml",
+			"*.jsp",
+			"*.xml",
+			"*.jsp",
+			"*.xml",
+			"",
+			"*.xml",
+			"*.vm",
+			"*.js",
+			"*.jade",
+			"",
+			"*.less",
+			"*.xml",
+			"*.jade",
+			"*-tmpl.jade",
+			"*.xml",
+			"*.scss",
+			"*-tmpl.jade",
+			"*.scss",
+			"*-tmpl.jade",
+			"*.xml",
+			"*-tmpl.jade",
+			"*.xml",
+			"*.jsp",
+			"*.xml",
+			"*.jsp",
+			"",
+			"*.jsp",
+			"*.xml",
+			"",
+			"*.java",
+			"*.xml",
+			"*.jsp",
+			"*.xml",
+			"",
+			"*.xsl",
+			"",
+			"*.xml",
+			"",
+			"*.xml",
+			"~/api/",
+			"../api/",
+			"",
+			"*.xml",
+			"*.jsp",
+			"/pb2/spring",
+			"*.xml"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"footer",
+			"base",
+			"breadcrumbs",
+			"Breadcrumbs",
+			"saved search",
+			"adminwebsite",
+			"webadmin",
+			"citation",
+			"serial publication history",
+			"[project]",
+			"[product]",
+			"articles-tools-labels",
+			"PP",
+			"PP_SLIDES",
+			"groupIssuesBy",
+			"mostReadSec",
+			"<<<<<< HEAD",
+			"Services.getService(\"showCollection\").getActionClass()",
+			"WIDGET_TOW_LEVEL_ARG",
+			"tagSection",
+			"ux3:",
+			"frontend/responsive/enabled",
+			"Previous",
+			"previous",
+			"Previous",
+			"\t",
+			"fum/releasedAssets/css/build.css",
+			"hover-secondary-link-color",
+			"hover-secondary-link-color\nhover-secondary-link-color",
+			"do:render",
+			"$hover-secondary-link-color",
+			"top content action",
+			"%USERPROFILE%",
+			"ux3-git",
+			"current issue",
+			"contentgrouptype",
+			"contentAreaField",
+			"normal",
+			"top content ",
+			"normal",
+			"mostRecentPublicationContentType",
+			"normal issue",
+			"Profile Emails",
+			"saved searches profile",
+			"saved search",
+			"profile menu",
+			"refworks",
+			"refworks and citations",
+			"purchaseArea--label",
+			"access denial",
+			"VM700:1 ",
+			"multi search",
+			"show recommended",
+			"Top content",
+			"Top content widget",
+			"multi search",
+			"page body",
+			"DO widget",
+			"commchannel.email.verification.link",
+			"download count",
+			"metrics",
+			"ul",
+			"fax",
+			"quick search",
+			"most cited",
+			"label=\"most cited",
+			"label=\"article tools",
+			"label=\"cover display",
+			"label=\"top content action",
+			"shibboleth",
+			"label=\"IP Ranges",
+			"IP Ranges",
+			"label=\"shibboleth",
+			"label=\"link resolver",
+			"main",
+			"label=\"Holdings",
+			"administrat",
+			"co-brand",
+			"holdings",
+			"label=\"Profile Menu",
+			"Article",
+			"Publication C",
+			"label=\"Publication Title",
+			"label=\"Bookmark and Share",
+			"label=\"Menu (",
+			"menu",
+			"label=\"Institution Banner",
+			"label=\"Heading",
+			"label=\"Inline Content",
+			"label=\"Tabs",
+			"label=\"Carousel with drop zones",
+			"label=\"Tabs\"",
+			"New Section",
+			"getLikeNamedTree",
+			"topical index",
+			"_physio",
+			"/pb-assets/images/Logos/TES%20logo.png",
+			"coolBar--res",
+			"b83a9112-ff13-4233-be12-8a37252f58fb",
+			"string",
+			"boolean",
+			"literatum.props.xml",
+			"+",
+			".quick-search__button",
+			"top content",
+			"group",
+			"meta-wrapper",
+			"{{serial}}",
+			"<i aria-hidden=\"true\" class=\"icon-Icon_Star-26\"></i>",
+			"article-tools",
+			"b83a9112-ff13-4233-be12-8a37252f58fb",
+			".support-feature",
+			"serial.",
+			"ISSN",
+			"issn",
+			"serial",
+			"group",
+			"table of contents",
+			"Entitlements",
+			"Show Recommended",
+			"ch-id",
+			"Add to cart",
+			"pb-widget-layout",
+			"pb-layout-widget",
+			".base",
+			"base",
+			"fixed",
+			"header.scss"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"C:\\Atypon",
+			"",
+			".carousel",
+			"  ",
+			"&amp;",
+			"{ \\n",
+			"\\{ \\n",
+			"{ \\n",
+			"  ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 141.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "sushiart-st-project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"breadcrumbscontroller",
+				"lit-1720\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\ux3\\BreadCrumbsController.java"
+			],
+			[
+				"saved-searches-tmpl",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\saved-searches\\templates\\saved-searches\\saved-searches-tmpl.jade"
+			],
+			[
+				"pub-con",
+				"~UX3\\pb-assets\\graphql\\pub-content-cover.pug"
+			],
+			[
+				"ux3customization.xml",
+				"lit-1710\\atypon\\product\\ux3\\src\\java\\com\\atypon\\literatum\\admin\\client\\customization.xml"
+			],
+			[
+				"ux3xsl",
+				"lit-1710\\atypon\\product\\templates\\xsl\\_ux3\\xsl2_citedby.xsl"
+			],
+			[
+				"icmoon",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\fonts\\icomoon\\icomoon.css"
+			],
+			[
+				"colors.yaml",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\variables\\aliases\\colors.yaml"
+			],
+			[
+				"serialhistorycontroller",
+				"lit-1720\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\contentDisplay\\SerialHistoryController.java"
+			],
+			[
+				"/pb2/widgets/pagebuilderliteratum/contentdisplay/serialhistory.jsp",
+				"lit-1720\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\contentDisplay\\serialHistory.jsp"
+			],
+			[
+				"create_",
+				"Github Styleguide\\scripts\\create_prod_template.py"
+			],
+			[
+				"articletools.graphql",
+				"lit-1720\\atypon\\product\\templates\\jsp\\pb2\\widgets\\graphql\\articleTools\\articleTools.graphql"
+			],
+			[
+				"ux3-widgets",
+				"lit-1720\\atypon\\literatum\\conf\\spring\\pb2\\ux3\\ux3-widgets.xml"
+			],
+			[
+				"/pb2/widgets/ux3-graphql/discoverability/search-results/search-results.graphql",
+				"lit-1720\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\Discoverability\\search-results\\search-results.graphql"
+			],
+			[
+				"midtier.props.pb2.ux3",
+				"lit-1720\\atypon\\product\\midtier\\conf\\midtier.props.pb2.ux3.xml"
+			],
+			[
+				"ux3.props",
+				"lit-1710\\atypon\\product\\ux3\\conf\\ux3.props.xml"
+			],
+			[
+				"ux3-wid",
+				"lit-1720\\atypon\\literatum\\conf\\spring\\pb2\\ux3\\ux3-widgets.xml"
+			],
+			[
+				"package",
+				"Github Styleguide\\ux3\\user\\package.json"
+			],
+			[
+				"packa",
+				"Github Styleguide\\ux3\\user\\package.json"
+			],
+			[
+				"gulpfile",
+				"Github Styleguide\\ux3\\user\\gulpfile.js"
+			],
+			[
+				"physiolitserv",
+				"lit-1720\\atypon\\product\\physio\\conf\\litservices.xml"
+			],
+			[
+				"physiodetails-tab-tmpl",
+				"Github Styleguide\\ux3\\user\\specs\\products\\physio\\widgets\\publication-content\\templates\\article\\details-tab-tmpl.jade"
+			],
+			[
+				"graphqllink",
+				"lit-1720\\atypon\\publish\\src\\java\\com\\atypon\\publish\\frontend\\graphql\\tag\\TagLinkFetcher.java"
+			],
+			[
+				"showtopic",
+				"lit-1720\\atypon\\publish\\src\\java\\com\\atypon\\publish\\action\\search\\ShowTopic.java"
+			],
+			[
+				"topicalindexgraph",
+				"lit-1720\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\Discoverability\\topical-index\\topical-index.graphql"
+			],
+			[
+				"topicalindexc",
+				"lit-1720\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\ux3\\search\\TopicalIndexWidgetController.java"
+			],
+			[
+				"/pb2/widgets/ux3-graphql/discoverability/topical-index/topical-index.graphql",
+				"lit-1720\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\Discoverability\\topical-index\\topical-index.graphql"
+			],
+			[
+				"topical-index-tmpl",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\topical-index\\templates\\topical-index\\topical-index-tmpl.jade"
+			],
+			[
+				"ux3-widgets.xml",
+				"lit-1720\\atypon\\literatum\\conf\\spring\\pb2\\ux3\\ux3-widgets.xml"
+			],
+			[
+				"search-result-tmpl",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\search-result\\templates\\search-result\\search-result-tmpl.jade"
+			],
+			[
+				"ux3/widgets/browse-journals/templates/browse-journals/browse-journals-tmpl.jade",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\browse-journals\\templates\\browse-journals\\browse-journals-tmpl.jade"
+			],
+			[
+				"/map/map-article-tmpl.jade",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\publication-content\\templates\\article\\map\\map-article-tmpl.jade"
+			],
+			[
+				"/ux3/widgets/publication-content/templates/article/article-tmpl.jade",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\publication-content\\templates\\article\\article-tmpl.jade"
+			],
+			[
+				"publication-list-",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\publication-list\\templates\\publication-list\\publication-list-tmpl.jade"
+			],
+			[
+				"show-recomm",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\widgets\\show-recommended\\templates\\show-recommended\\show-recommended-tmpl.jade"
+			],
+			[
+				"pagination-tmpl",
+				"Github Styleguide\\ux3\\user\\specs\\ux3\\components\\pagination\\templates\\pagination\\pagination-tmpl.jade"
+			],
+			[
+				"digitalobjectpublication",
+				"lit-1710\\atypon\\publish\\src\\java\\com\\atypon\\publish\\acs\\metadata\\DigitalObjectPublication.java"
+			],
+			[
+				"digitalobjectn",
+				"lit-1710\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\contentDisplay\\DigitalObjectNavigationController.java"
+			],
+			[
+				"pb2/widgets/core/html-page-head-product-styles.ftl",
+				"lit-1710\\atypon\\product\\templates\\jsp\\_ux3\\_pericles\\pb2\\widgets\\core\\html-page-head-product-styles.ftl"
+			],
+			[
+				"graphqljaderenderer",
+				"lit-1710\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\pagebuilder\\extensions\\impl\\jade\\GraphQLJadeRenderer.java"
+			],
+			[
+				"topcontentwidget.graphql",
+				"lit-1710\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\top-content-widget\\topContentWidget.graphql"
+			],
+			[
+				"topcontentwidgetcontroller",
+				"lit-1710\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\ux3\\discoverability\\TopContentWidgetController.java"
+			],
+			[
+				"listofissuescontroller",
+				"lit-1710\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\contentDisplay\\ListOfIssuesController.java"
+			],
+			[
+				"icontentgrouptype",
+				"lit-1710\\atypon\\publish\\src\\java\\com\\atypon\\publish\\frontend\\graphql\\content\\type\\IssueGroupTypeEnumProvider.java"
+			],
+			[
+				"fieldva",
+				"lit-1710\\atypon\\publish\\src\\java\\com\\atypon\\modules\\snippedit\\stories\\FieldValueType.java"
+			],
+			[
+				"mostrecentcontroller",
+				"lit-1710\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\discoverability\\MostRecentController.java"
+			],
+			[
+				"pagebuilderliteratum/profile/raa/logininformation.jsp",
+				"lit-1710\\atypon\\product\\templates\\jsp\\_ux3\\pb2\\widgets\\pageBuilderLiteratum\\profile\\raa\\loginInformation.jsp"
+			],
+			[
+				"pagebuilderliteratum/profile/raa/emails.jsp",
+				"lit-1710\\atypon\\product\\templates\\jsp\\_ux3\\pb2\\widgets\\pageBuilderLiteratum\\profile\\raa\\emails.jsp"
+			],
+			[
+				"/pb2/widgets/pagebuilderliteratum/profile/raa/sessiontokenform.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\profile\\raa\\sessionTokenForm.jsp"
+			],
+			[
+				"pb2/widgets/pagebuilderliteratum/ecomm/accessdenial/accessdenial.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\ecomm\\accessDenial\\accessDenial.jsp"
+			],
+			[
+				"multisearchview",
+				"lit-1710\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\discoverability\\multiSearchView.jsp"
+			],
+			[
+				"multisearchcontroller",
+				"lit-1710\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\discoverability\\MultiSearchController.java"
+			],
+			[
+				"show-recommended.graphql",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\Discoverability\\show-recommended\\show-recommended.graphql"
+			],
+			[
+				"combinedrecommendationscontroller",
+				"Lit-1630 Source\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\ux3\\search\\CombinedRecommendationsController.java"
+			],
+			[
+				"multisearchview.jsp",
+				"lit-1710\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\discoverability\\multiSearchView.jsp"
+			],
+			[
+				"/pb2/widgets/layout/pagebody.ftl",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\layout\\pageBody.ftl"
+			],
+			[
+				"downloadcountcontroller",
+				"Lit-1630 Source\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\discoverability\\downloadCountController.java"
+			],
+			[
+				"/articlemetrics/articlemetrics.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\contentDisplay\\articleMetrics\\articleMetrics.jsp"
+			],
+			[
+				"articlemetricscontroller",
+				"Lit-1630 Source\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\contentDisplay\\ArticleMetricsController.java"
+			],
+			[
+				"headertmpl",
+				"UX3 Products Source\\physio\\templates\\header\\templates\\header\\header-tmpl.jade"
+			],
+			[
+				"ux3.xml",
+				"Lit-1630 Source\\atypon\\literatum\\conf\\spring\\pb2\\ux3\\ux3.xml"
+			],
+			[
+				"midtier.props.pb2.ux",
+				"Lit-1630 Source\\atypon\\product\\midtier\\conf\\midtier.props.pb2.ux3.xml"
+			],
+			[
+				"ux3spring",
+				"Lit-1630 Source\\atypon\\product\\ux3\\conf\\ux3.spring.xml"
+			],
+			[
+				"widgets.xml",
+				"Lit-1630 Source\\atypon\\literatum\\conf\\spring\\pb2\\literatum\\literatum-widgets.xml"
+			],
+			[
+				"ux3-wi",
+				"Lit-1630 Source\\atypon\\literatum\\conf\\spring\\pb2\\ux3\\ux3-widgets.xml"
+			],
+			[
+				"pagebuilderliteratum/search/topicalindex.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\search\\topicalIndex.jsp"
+			],
+			[
+				"topicalindexcontroller",
+				"Lit-1630 Source\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\search\\TopicalIndexController.java"
+			],
+			[
+				"email/commerce/purchaseconfirmation.html.vm",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\_style2\\_rsdTheme\\_asce\\email\\commerce\\purchaseConfirmation.html.vm"
+			],
+			[
+				"pagebuilderliteratum/profile/raa/marketable.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\profile\\raa\\marketable.jsp"
+			],
+			[
+				"raa-fro",
+				"Lit-1630 Source\\atypon\\literatum\\conf\\spring\\raa\\raa-frontend.xml"
+			],
+			[
+				"marketable",
+				"UX3 Source\\widgets\\marketable\\templates\\marketable\\marketable-tmpl.jade"
+			],
+			[
+				"teaser.sc",
+				"UX3 Source\\components\\teaser\\scss\\teaser.scss"
+			],
+			[
+				"teaser-tmp",
+				"UX3 Source\\components\\teaser\\templates\\teaser\\teaser-tmpl.jade"
+			],
+			[
+				"top-content-tmpl.jade",
+				"UX3 Source\\widgets\\top-content\\templates\\top-content\\top-content-tmpl.jade"
+			],
+			[
+				"tease",
+				"UX3 Source\\components\\teaser\\scss\\teaser.scss"
+			],
+			[
+				"top-content",
+				"UX3 Source\\widgets\\top-content\\scss\\top-content.scss"
+			],
+			[
+				"top-content-tmpl",
+				"UX3 Source\\widgets\\top-content\\templates\\top-content\\top-content-tmpl.jade"
+			],
+			[
+				"teaser",
+				"UX3 Source\\components\\teaser\\templates\\teaser\\teaser-tmpl.jade"
+			],
+			[
+				"issue-item",
+				"UX3 Source\\components\\issue-item\\templates\\issue-item\\issue-item-tmpl.jade"
+			],
+			[
+				"top-content/top-content-tmpl.jade",
+				"UX3 Products Source\\pericles\\widgets\\top-content\\templates\\top-content\\top-content-tmpl.jade"
+			],
+			[
+				"pb2/widgets/ux3-graphql/top-content-widget/topcontentwidget.graphql",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\top-content-widget\\topContentWidget.graphql"
+			],
+			[
+				"icom",
+				"UX3 Source\\fonts\\icomoon\\icomoon.css"
+			],
+			[
+				"icon",
+				"UX3 Source\\basic\\icon-fonts\\scss\\helpers\\icons.css"
+			],
+			[
+				"fum.props.xml",
+				"Lit-1630 Source\\atypon\\product\\fum\\conf\\fum.props.xml"
+			],
+			[
+				"spring/pb2/legacy-product.xml",
+				"Lit-1630 Source\\atypon\\literatum\\conf\\spring\\pb2\\legacy-product.xml"
+			],
+			[
+				"midtier.props.pb2.legacy.xml",
+				"Lit-1630 Source\\atypon\\product\\midtier\\conf\\midtier.props.pb2.legacy.xml"
+			],
+			[
+				"profile.less",
+				"~UX3\\pb-assets\\styles\\less\\profile.less"
+			],
+			[
+				"search.ess",
+				"~UX3\\pb-assets\\styles\\less\\search.less"
+			],
+			[
+				"pub-cn",
+				"~UX3\\pb-assets\\graphql\\pub-content-cover.graphql"
+			],
+			[
+				"pub-conte",
+				"~UX3\\pb-assets\\graphql\\pub-content-cover.pug"
+			],
+			[
+				"ext-cit",
+				"UX3 Source\\widgets\\publication-content\\templates\\article\\extended\\ext-citation-tmpl.jade"
+			],
+			[
+				"publication-content-t",
+				"UX3 Source\\widgets\\publication-content\\templates\\article\\article-tmpl.jade"
+			],
+			[
+				"/pb2/widgets/pagebuilderliteratum/ecomm/subscription/entitlements.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\_ux3\\pb2\\widgets\\pageBuilderLiteratum\\ecomm\\subscription\\entitlements.jsp"
+			],
+			[
+				"entitlemtn",
+				"UX3 Source\\templates\\my-account\\templates\\my-account\\access-entitlements-tmpl.jade"
+			],
+			[
+				"entitlements",
+				"UX3 Source\\widgets\\entitlements\\scss\\entitlements.scss"
+			],
+			[
+				"/pb2/widgets/pagebuilderliteratum/search/relateditems.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\search\\relatedItems.jsp"
+			],
+			[
+				"administrat",
+				"UX3 Source\\widgets\\administrators\\templates\\administrators\\administrators-tmpl.jade"
+			],
+			[
+				"ip-ranges",
+				"UX3 Source\\widgets\\ip-ranges\\templates\\ip-ranges\\ip-ranges-tmpl.jade"
+			],
+			[
+				"search-result/ex",
+				"UX3 Source\\widgets\\search-result\\templates\\search-result\\extended\\ext-tabs-tmpl.jade"
+			],
+			[
+				"search-results-tmpl",
+				"UX3 Source\\widgets\\search-result\\templates\\search-result\\search-tabs-tmpl.jade"
+			],
+			[
+				"search-results",
+				"UX3 Products Source\\nejm\\widgets\\search-results\\templates\\search-results-tmpl.jade"
+			],
+			[
+				"base.scss",
+				"UX3 Products Source\\fsg\\basic\\base\\scss\\base.scss"
+			],
+			[
+				"base.css",
+				"UX3 Source\\basic\\base\\scss\\base.scss"
+			],
+			[
+				"headerscss",
+				"UX3 Source\\templates\\header\\scss\\header.scss"
+			],
+			[
+				"header-layou",
+				"MIT pb-assets\\handlebars\\header-layout.hbs"
+			],
+			[
+				"colors.scss",
+				"UX3 Source\\basic\\colors\\scss\\colors.scss"
+			],
+			[
+				"administrators-",
+				"UX3 Source\\widgets\\administrators\\templates\\administrators\\administrators-tmpl.jade"
+			],
+			[
+				"tps-code",
+				"UX3 Source\\widgets\\trusted-proxy-code\\templates\\trusted-proxy-code\\trusted-proxy-code-tmpl.jade"
+			],
+			[
+				"lockssipcontroller",
+				"Lit-1630 Source\\atypon\\bridge\\src\\java\\com\\atypon\\frontend\\widgets\\controllers\\ux3\\profile\\LockssIPController.java"
+			],
+			[
+				"lockss-ip-tmpl.jade",
+				"UX3 Source\\widgets\\lockss-ip\\templates\\lockss-ip\\lockss-ip-tmpl.jade"
+			],
+			[
+				"lockss-ip-tmp",
+				"UX3 Source\\widgets\\lockss-ip\\templates\\lockss-ip\\lockss-ip-tmpl.jade"
+			],
+			[
+				"tmpl",
+				"UX3 Source\\components\\citation\\templates\\citation\\citation-tmpl.jade"
+			],
+			[
+				"topcontent.gr",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\top-content-widget\\topContentWidget.graphql"
+			],
+			[
+				"search-fac",
+				"UX3 Source\\widgets\\search-facets\\templates\\search-facets\\search-facets-tmpl.jade"
+			],
+			[
+				"topcontent.graph",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\top-content-widget\\topContentWidget.graphql"
+			],
+			[
+				"/pb2/widgets/pagebuilderliteratum/ecomm/accessdenial/responsiveaccessdenial/responsiveaccessdenial.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\ecomm\\accessDenial\\responsiveAccessDenial\\responsiveAccessDenial.jsp"
+			],
+			[
+				"raa",
+				"Lit-1630 Source\\atypon\\literatum\\conf\\spring\\raa\\raa-frontend.xml"
+			],
+			[
+				"publicationlist",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\graphql\\publicationList\\publicationList.graphql"
+			],
+			[
+				"tabs.scss",
+				"UX3 Source\\components\\tabs\\scss\\tabs.scss"
+			],
+			[
+				"profile-menu.scss",
+				"UX3 Source\\widgets\\profile-menu\\scss\\profile-menu.scss"
+			],
+			[
+				"ecomm/accessdenial/responsiveaccessdenial/responsiveaccessdenial.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\ecomm\\accessDenial\\responsiveAccessDenial\\responsiveAccessDenial.jsp"
+			],
+			[
+				"raa-",
+				"Lit-1630 Source\\atypon\\literatum\\conf\\spring\\raa\\raa-frontend.xml"
+			],
+			[
+				"midtier.props.ibm-pre-production.xml",
+				"Lit-1630 Source\\atypon\\product\\midtier\\conf\\midtier.props.IBM-pre-production.xml"
+			],
+			[
+				"pb2/widgets/navigation/user/showpreferenceslinkcontent.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\navigation\\user\\showPreferencesLinkContent.jsp"
+			],
+			[
+				"/templates/jsp/_midtier/_ffa/_fus/terms.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\_midtier\\_FFA\\_fus\\terms.jsp"
+			],
+			[
+				"/pb2/widgets/graphql/publicationlist/publicationlist.graphql",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\graphql\\publicationList\\publicationList.graphql"
+			],
+			[
+				"/pb2/widgets/ux3-graphql/top-content-widget/topcontentwidget.graphql",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\ux3-graphql\\top-content-widget\\topContentWidget.graphql"
+			],
+			[
+				"/pb2/widgets/pagebuilderliteratum/profile/profilemenu/institutionitems.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\profile\\profileMenu\\institutionItems.jsp"
+			],
+			[
+				"/pb2/widgets/pagebuilderliteratum/profile/profilemenu/profilemenu.jsp",
+				"Lit-1630 Source\\atypon\\product\\templates\\jsp\\pb2\\widgets\\pageBuilderLiteratum\\profile\\profileMenu\\profileMenu.jsp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"G:\\Dev\\Hackernews\\hackernews-sublime.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 377.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

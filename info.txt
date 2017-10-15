@@ -1,0 +1,29 @@
+Info:
+	create-react-app
+		https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md
+	node-sass
+		https://github.com/hellobrian/sass-recipes/tree/master/node-sass
+	react-apollo
+		https://github.com/apollographql/react-apollo
+
+
+
+Dependencies
+	graphcool
+	create-react-app
+	npm i node-sass-chokidar -g
+	npm i autoprefixer chokidar-cli npm-run-all postcss-cli -S
+	npm install react-apollo
+
+
+
+graphcool init --name sushiArt
+create-react-app sushi-art
+mv project.graphcool into sushi-art folder
+mkdir components, scss
+mv App.js -> components, App.css, index.css -> scss\App.scss, index.scss
+SCSS support
+	https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc
+Set up Apollo Interface
+	index.js
+	Create instance of ApolloClient, use createNetworkInterface to point to graphcool endpoint
