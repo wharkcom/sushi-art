@@ -1,27 +1,77 @@
 import React, { Component } from 'react'
 import Image from './Image'
+import { graphql, gql, compose } from 'react-apollo'
 
 class ImageList extends Component {
 
+	state = {
+		currentImage: {},
+		viewer: "hidden"
+	}
+
+	_getImages = () => {
+		return this.props.allImagesQuery.allImages
+	}
+	_openFigViewer = (image) => {
+		this.setState({currentImage: image})
+		this.setState({viewer: ""})
+	}
+
+	_closeFigViewer = () => {
+		this.setState({currentImage: {}})
+		this.setState({viewer: "hidden"})
+	}
+
 	render() {
-		const images = [{
-			id: '1',
-			src: 'https://placeimg.com/200/200/animals',
-			alt: "dog pic"
-		}, {
-			id: '2',
-			src: 'https://placeimg.com/200/200/nature',
-			alt: "tree pic"
-		}]
+
+		// 1
+	  if (this.props.allImagesQuery && this.props.allImagesQuery.loading) {
+	    return <div>Loading</div>
+	  }
+
+	  // 2
+	  if (this.props.allImagesQuery && this.props.allImagesQuery.error) {
+	    return <div>Error</div>
+	  }
+
+		// const images = this.props.allImagesQuery.allImages
+		const images = this._getImages()
 
 		return (
-			<div>
-				{images.map(image => (
-					<Image key={image.id} image={image}/>
-				))}
+			<div className='flex'>
+				<div className='imageList flex'>
+					{images.map(image => (
+						<div key={image.id} onClick={() => {this._openFigViewer(image)}}>
+							<Image key={image.id} image={image} />
+						</div>
+					))}
+				</div>
+				{this.state.currentImage &&
+					<div className={'figureViewer ' + this.state.viewer} >
+						<div className='modal' onClick={() => {this._closeFigViewer()}}></div>
+						<Image image={this.state.currentImage} />
+					</div>
+				}
 			</div>
 		)
 	}
 }
 
-export default ImageList
+const ALL_IMAGES = gql`
+  query AllImagesQuery {
+	  allImages {
+	    description
+	    alt
+	    src
+	    id
+	  }
+	}
+` 
+
+const ImageListQL = compose(
+  graphql(ALL_IMAGES, {
+    name: 'allImagesQuery'
+  })
+) (ImageList)
+
+export default ImageListQL

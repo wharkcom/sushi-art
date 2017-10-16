@@ -1,3 +1,6 @@
+.hidden {
+  display: none !important; }
+
 .rlist--inline {
   margin: 0;
   padding: 0;
