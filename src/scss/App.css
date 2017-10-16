@@ -21,6 +21,12 @@ main {
 .text-onDark {
   color: #fdfdfd; }
 
+.success {
+  color: #05b505;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 1px solid #236467; }
+
 header {
   background: #A4DCDE;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
@@ -53,7 +59,7 @@ nav {
   .file-submit input[type='text'] {
     width: 460px;
     height: 25px;
-    margin: 10px 20px 10px 0; }
+    margin: 5px 20px 20px 0; }
   .file-submit .dropzone {
     background: #eee;
     border: 2px dashed #236467;

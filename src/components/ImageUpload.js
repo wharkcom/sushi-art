@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { graphql, gql } from 'react-apollo'
+import { graphql, gql, compose } from 'react-apollo'
 import Dropzone from 'react-dropzone'
 
 // Reference: https://github.com/graphcool-examples/react-graphql/blob/master/files-with-apollo/src/components/CreatePage.js
@@ -9,7 +9,8 @@ class ImageUpload extends Component {
     alt: '',
     description: '',
     src: '',
-    imageId: '',
+    fileId: '',
+    success: false
   }
 
   render() {
@@ -19,23 +20,29 @@ class ImageUpload extends Component {
           <h2>Upload an Image</h2>
           <div className='flex flex--center'>
             <div className='flex flex-column'>
-              <input
-                className='mb2'
-                value={this.state.description}
-                onChange={(e) => this.setState({ description: e.target.value })}
-                type='text'
-                placeholder='A description for the Image'
-              />
-              <input
-                className='mb2'
-                value={this.state.alt}
-                onChange={(e) => this.setState({ alt: e.target.value })}
-                type='text'
-                placeholder='The image alt text'
-              />
+              <label>
+                <div>Description</div>
+                <input
+                  className='mb2'
+                  value={this.state.description}
+                  onChange={(e) => this.setState({ description: e.target.value })}
+                  type='text'
+                  placeholder='A description for the Image'
+                />
+              </label>
+              <label>
+                <div>Alt Text</div>
+                <input
+                  className='mb2'
+                  value={this.state.alt}
+                  onChange={(e) => this.setState({ alt: e.target.value })}
+                  type='text'
+                  placeholder='The image alt text'
+                />
+              </label>
             </div>
             <div>
-              {!this.state.imageId &&
+              {!this.state.fileId &&
               <Dropzone
                 onDrop={this.onDrop}
                 accept='image/*'
@@ -46,11 +53,14 @@ class ImageUpload extends Component {
                 <div>Drop an image or click to choose</div>
               </Dropzone>}
               {this.state.src &&
-                <img src={this.state.src} role='presentation' className='w-100 mv3' />
+                <img src={this.state.src} role='presentation' alt='Uploaded file' className='w-100 mv3' />
               }
             </div>
           </div>
-          <button onClick={() => this._imageUpload()}>Submit</button>
+          <button onClick={() => this._imageUpload()} className='btn btn--submit'>Submit</button>
+          {this.state.success &&
+                <div className='success'>Your image loaded successfully</div>
+              }
         </div>
       </div>
     )
@@ -69,22 +79,37 @@ class ImageUpload extends Component {
       return response.json()
     }).then(image => {
       this.setState({
-        imageId: image.id,
+        fileId: image.id,
         src: image.url,
       })
     })
   }
 
   _imageUpload = async () => {
-    const {alt, description, src} = this.state
+    const {alt, description, src, fileId} = this.state
     await this.props.uploadImageMutation({
       variables: {
         alt,
         description,
         src
       }
-    })
-    window.location.pathname = '/admin'
+    }).then(({data}) => {
+      this.props.relateImageMutation({
+        variables: {
+          fileId,
+          imageId: data.createImage.id
+        }
+      })
+    }).then(
+      this.setState({
+        alt: '',
+        description: '',
+        src: '',
+        fileId: '',
+        success: true
+      })
+    )
+    // window.location.pathname = '/admin'
   }
 }
 
@@ -102,6 +127,32 @@ const UPLOAD_IMAGE_MUTATION = gql`
       src
     }
   }
+` 
+const RELATE_IMAGE_MUTATION = gql`
+  mutation RelateImageMutation($fileId: ID!, $imageId: ID!) {
+    setFileOnImage(
+      imageImageId: $imageId,
+      fileFileId: $fileId
+    ) {
+      fileFile {
+        id
+        image {
+          id
+        }
+      }
+    }
+  }
 `
 
-export default graphql(UPLOAD_IMAGE_MUTATION, {name: 'uploadImageMutation'})(ImageUpload)
+const ImageUploadWithMutations = compose(
+  graphql(UPLOAD_IMAGE_MUTATION, {
+    name: 'uploadImageMutation'
+  }),
+  graphql(RELATE_IMAGE_MUTATION, {
+    name: 'relateImageMutation'
+  })
+) (ImageUpload)
+
+export default ImageUploadWithMutations
+
+// export default graphql(UPLOAD_IMAGE_MUTATION, {name: 'uploadImageMutation'})(ImageUpload)

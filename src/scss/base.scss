@@ -31,3 +31,10 @@ main {
 .text-onDark {
 	color: $white;
 }
+
+.success {
+	color: $green;
+	margin-top: 20px;
+	padding: 5px 10px;
+	border: 1px solid $color-primary-0;
+}

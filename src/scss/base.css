@@ -20,3 +20,9 @@ main {
 
 .text-onDark {
   color: #fdfdfd; }
+
+.success {
+  color: #05b505;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 1px solid #236467; }
