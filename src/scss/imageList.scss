@@ -1,12 +1,33 @@
 @import './_variables';
 
-.imageList {
+// Styles for full list of images
+
+
+// Styles for individual images
+.imageWrapper {
+	margin: 10px;
+	position: relative;
+
 	img {
 		height: 200px;
-		margin: 10px;
+	}
+	
+	.description {
+		display: none;
+	}
+
+	&:hover {
+		.description {
+			position: absolute;
+			bottom: 10px;
+			width: 100%;
+			text-align: center;
+		}
 	}
 }
 
+
+// Figure Viewer Styles
 .overlay {
 	position: fixed;
 	width: 100%;

@@ -76,9 +76,18 @@ nav {
     width: 200px;
     border: 2px dashed #236467; }
 
-.imageList img {
-  height: 200px;
-  margin: 10px; }
+.imageWrapper {
+  margin: 10px;
+  position: relative; }
+  .imageWrapper img {
+    height: 200px; }
+  .imageWrapper .description {
+    display: none; }
+  .imageWrapper:hover .description {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
 
 .overlay, .figureViewer, .modal {
   position: fixed;

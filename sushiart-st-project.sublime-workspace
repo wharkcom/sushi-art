@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"functionPlaceholder"
+			],
+			[
+				"ImageUpl",
+				"ImageUploadWithMutations"
+			],
+			[
 				"pr",
 				"prevNextContent"
 			],
@@ -39,6 +47,77 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/components/ImageUpload.js",
+			"settings":
+			{
+				"buffer_size": 4089,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/ImageList.js",
+			"settings":
+			{
+				"buffer_size": 1580,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Image.js",
+			"settings":
+			{
+				"buffer_size": 309,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/Dev/Hackernews/hackernews-react-apollo/src/components/LinkList.js",
+			"settings":
+			{
+				"buffer_size": 5938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 547,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/base.scss",
+			"settings":
+			{
+				"buffer_size": 523,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/header.scss",
+			"settings":
+			{
+				"buffer_size": 453,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/imageList.scss",
+			"settings":
+			{
+				"buffer_size": 445,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -47,10 +126,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 269.0,
-		"last_filter": "install ",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"git",
+				"Git: Commit history"
+			],
 			[
 				"install ",
 				"Package Control: Install Package"
@@ -122,10 +205,6 @@
 			[
 				"git log",
 				"Git: Log All"
-			],
-			[
-				"git",
-				"Git: Commit history"
 			],
 			[
 				"git in",
@@ -260,10 +339,38 @@
 	},
 	"expanded_folders":
 	[
-		"/G/Dev/SushiArt/sushi-art"
+		"/G/Dev/SushiArt/sushi-art",
+		"/G/Dev/SushiArt/sushi-art/src",
+		"/G/Dev/SushiArt/sushi-art/src/components",
+		"/G/Dev/SushiArt/sushi-art/src/scss",
+		"/G/Dev/Hackernews"
 	],
 	"file_history":
 	[
+		"/G/Dev/SushiArt/sushi-art/sushiart-st-project.sublime-project",
+		"/G/Dev/SushiArt/sushi-art/src/scss/App.scss",
+		"/G/Dev/SushiArt/sushi-art/src/scss/admin.scss",
+		"/G/Dev/SushiArt/sushi-art/src/components/Header.js",
+		"/G/Dev/SushiArt/sushi-art/src/components/Admin.js",
+		"/G/Dev/SushiArt/sushi-art/src/scss/App.css",
+		"/G/Dev/SushiArt/sushi-art/package.json",
+		"/G/Dev/SushiArt/sushi-art/src/scss/header.scss",
+		"/G/Dev/SushiArt/sushi-art/src/scss/index.scss",
+		"/G/Dev/SushiArt/sushi-art/src/scss/base.scss",
+		"/G/Dev/SushiArt/sushi-art/src/components/App.js",
+		"/G/Dev/Hackernews/hackernews-react-apollo/src/components/Header.js",
+		"/G/Dev/Hackernews/hackernews-react-apollo/src/index.js",
+		"/G/Dev/SushiArt/sushi-art/src/index.js",
+		"/G/Dev/Hackernews/hackernews-react-apollo/src/components/App.js",
+		"/C/Users/William/.ssh/sourcetree.ppk",
+		"/C/Users/William/.ssh/sourcetree_will.ppk",
+		"/C/Users/William/.ssh/known_hosts",
+		"/C/Users/William/.ssh/sourcetree.pub",
+		"/G/Dev/SushiArt/sushi-art/.git/config",
+		"/C/Users/William/.ssh/id_rsa_will",
+		"/C/Users/William/.ssh/id_rsa_will.pub",
+		"/C/Users/William/.ssh/id_rsa",
+		"/C/Users/William/.ssh/id_rsa.pub",
 		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/templates/header/scss/header.scss",
 		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/templates/header/templates/header/header-tmpl.jade",
 		"/C/Atypon/source/github/atypon/styleguide/ux3/user/specs/products/mal/plugins/drawer/scss/drawer.scss",
@@ -367,35 +474,11 @@
 		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/bridge/service/BackstageAreaTranslator.java",
 		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/services/impl/LiteratumBackstageAreaTranslatorImpl.java",
 		"/C/Atypon/source/lit-1710/atypon/literatum/conf/literatum.props.xml",
-		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/acs/metadata/IContentGroupType.java",
-		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/modules/snippedit/stories/FieldValueType.java",
-		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/services/impl/BackstageAreaTranslatorImpl.java",
-		"/G/Drive/Atypon/~UX3/pb-assets/styles/less/header.less",
-		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/discoverability/MostRecentController.java",
-		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/literatum/literatum-widgets.xml",
-		"/C/Atypon/source/lit-1710/atypon/literatum/conf/spring/raa/raa-frontend.xml",
-		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/_ux3/pb2/widgets/pageBuilderLiteratum/profile/raa/loginInformation.jsp",
-		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/_style2/_rsdTheme/_fum/pb2/widgets/pageBuilderLiteratum/profile/raa/emails.jsp",
-		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/_ux3/pb2/widgets/pageBuilderLiteratum/profile/raa/emails.jsp",
-		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/common/profile-widgets.xml",
-		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/ux3/ux3-widgets.xml",
-		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/_style2/_rsdTheme/_endo/pb2/widgets/pageBuilderLiteratum/ecomm/accessDenial/responsiveAccessDenial/responsiveAccessDenial.jsp",
-		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/pageBuilderLiteratum/ecomm/accessDenial/accessDenial.jsp",
-		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/pageBuilderLiteratum/profile/raa/sessionTokenForm.jsp",
-		"/G/Drive/Atypon/~UX3/hope-toc.pug",
-		"/G/Drive/Atypon/~UX3/hope-toc",
-		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/discoverability/MultiSearchController.java",
-		"/C/Atypon/source/lit-1710/atypon/product/templates/jsp/pb2/widgets/pageBuilderLiteratum/discoverability/multiSearchView.jsp",
-		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/ux3-graphql/Discoverability/show-recommended/show-recommended.graphql",
-		"/C/Atypon/source/lit-1630/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/ux3/search/CombinedRecommendationsController.java",
-		"/C/Atypon/source/lit-1630/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/ux3/discoverability/TopContentWidgetController.java",
-		"/G/Dev/Hackernews/hackernews-react-apollo/public/index.html",
-		"/C/Atypon/source/lit-1630/atypon/literatum/conf/spring/pb2/common/layout-widgets.xml",
-		"/C/Atypon/source/lit-1630/atypon/product/templates/jsp/pb2/widgets/layout/pageBody.ftl"
+		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/acs/metadata/IContentGroupType.java"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -465,6 +548,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"showViewer",
+			"css",
+			"allLinksQuery",
+			"imageId",
+			"span",
+			"src",
+			"_ImageUpload",
+			"createLink",
+			"CreateLink",
+			".",
 			"footer",
 			"base",
 			"breadcrumbs",
@@ -582,17 +675,7 @@
 			"issn",
 			"serial",
 			"group",
-			"table of contents",
-			"Entitlements",
-			"Show Recommended",
-			"ch-id",
-			"Add to cart",
-			"pb-widget-layout",
-			"pb-layout-widget",
-			".base",
-			"base",
-			"fixed",
-			"header.scss"
+			"table of contents"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -620,8 +703,273 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/components/ImageUpload.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1418,
+								1418
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/ImageList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/Image.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/G/Dev/Hackernews/hackernews-react-apollo/src/components/LinkList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4123,
+								4123
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/scss/base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/scss/header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/scss/imageList.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -642,11 +990,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.535795977696,
 			1.0
 		],
 		"rows":

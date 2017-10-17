@@ -22,6 +22,40 @@ class ImageList extends Component {
 		this.setState({viewer: "hidden"})
 	}
 
+	_subscribeToNewImages = () => {
+		this.props.allImagesQuery.subscribeToMore({
+			document: gql`
+				subscription {
+					Image(filter: {
+						mutation_in: [CREATED, UPDATED]
+					}) {
+						node {
+							id
+							src
+							alt
+							description
+						}
+					}
+				}
+			`,
+			updateQuery: (previous, { subscriptionData }) => {
+				const newAllImages = [
+					subscriptionData.data.Image.node,
+					...previous.allImages
+				]
+				const result = {
+					...previous,
+					allImages: newAllImages
+				}
+				return result
+			}
+		})
+	}
+
+	componentDidMount() {
+		this._subscribeToNewImages()
+	}
+
 	render() {
 
 		// 1
