@@ -13,15 +13,19 @@
 	}
 	
 	.description {
-		display: none;
+		display: none; // Hide the description until you hover over the image
+		background: $dark-modal;
+		color: $white;
+		position: absolute;
+		bottom: 10px;
+		width: 100%;
+		text-align: center;
+		padding: 5px 0;
 	}
 
 	&:hover {
 		.description {
-			position: absolute;
-			bottom: 10px;
-			width: 100%;
-			text-align: center;
+			display: block;
 		}
 	}
 }
@@ -43,12 +47,19 @@
 
 	.imageWrapper {
 		z-index: 2;
-		top: 5vh;
+		max-height: 90vh;
+		top: 2vh;
 		position: relative;
 	}
 
 	img {
-		height: 90vh;
+		height: auto;
+		max-height: 90vh;
+		object-fit: contain;
+	}
+
+	.description {
+		font-size: 1.25rem;
 	}
 }
 

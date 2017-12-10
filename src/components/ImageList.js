@@ -6,7 +6,7 @@ class ImageList extends Component {
 
 	state = {
 		currentImage: {},
-		viewer: "hidden"
+		viewer: "hidden",
 	}
 
 	_getImages = () => {
@@ -73,7 +73,7 @@ class ImageList extends Component {
 
 		return (
 			<div className='flex'>
-				<div className='imageList flex'>
+				<div className='imageList flex flex--wrap'>
 					{images.map(image => (
 						<div key={image.id} onClick={() => {this._openFigViewer(image)}}>
 							<Image key={image.id} image={image} />
