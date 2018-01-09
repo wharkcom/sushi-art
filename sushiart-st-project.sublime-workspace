@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"allImages",
+				"allImagesQuery"
+			],
+			[
 				"fun",
 				"functionPlaceholder"
 			],
@@ -48,19 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/components/ImageUpload.js",
-			"settings":
-			{
-				"buffer_size": 4089,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/components/ImageList.js",
 			"settings":
 			{
-				"buffer_size": 1580,
+				"buffer_size": 2235,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -69,16 +64,69 @@
 			"file": "src/components/Image.js",
 			"settings":
 			{
-				"buffer_size": 309,
+				"buffer_size": 538,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/G/Dev/Hackernews/hackernews-react-apollo/src/components/LinkList.js",
+			"file": "src/components/ImageUpload.js",
 			"settings":
 			{
-				"buffer_size": 5938,
+				"buffer_size": 5475,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/App.js",
+			"settings":
+			{
+				"buffer_size": 574,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Header.js",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Login.js",
+			"settings":
+			{
+				"buffer_size": 1812,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project.graphcool",
+			"settings":
+			{
+				"buffer_size": 975,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/constants.js",
+			"settings":
+			{
+				"buffer_size": 97,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -86,7 +134,7 @@
 			"file": "src/scss/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 547,
+				"buffer_size": 577,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -95,16 +143,7 @@
 			"file": "src/scss/base.scss",
 			"settings":
 			{
-				"buffer_size": 523,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/scss/header.scss",
-			"settings":
-			{
-				"buffer_size": 453,
+				"buffer_size": 556,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -113,7 +152,7 @@
 			"file": "src/scss/imageList.scss",
 			"settings":
 			{
-				"buffer_size": 445,
+				"buffer_size": 1056,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -339,14 +378,20 @@
 	},
 	"expanded_folders":
 	[
-		"/G/Dev/SushiArt/sushi-art",
-		"/G/Dev/SushiArt/sushi-art/src",
-		"/G/Dev/SushiArt/sushi-art/src/components",
-		"/G/Dev/SushiArt/sushi-art/src/scss",
-		"/G/Dev/Hackernews"
 	],
 	"file_history":
 	[
+		"/C/windows-version.txt",
+		"/C/bdlog.txt",
+		"/C/env_list.txt",
+		"/G/Dev/SushiArt/sushi-art/src/components/App.js",
+		"/G/Dev/SushiArt/sushi-art/src/scss/header.scss",
+		"/G/Dev/SushiArt/sushi-art/src/scss/imageList.scss",
+		"/G/Dev/Hackernews/hackernews-react-apollo/src/components/LinkList.js",
+		"/G/Dev/SushiArt/sushi-art/src/components/ImageUpload.js",
+		"/G/Dev/SushiArt/sushi-art/src/components/Image.js",
+		"/G/Dev/SushiArt/sushi-art/src/components/ImageList.js",
+		"/G/Dev/SushiArt/sushi-art/src/index.js",
 		"/G/Dev/SushiArt/sushi-art/sushiart-st-project.sublime-project",
 		"/G/Dev/SushiArt/sushi-art/src/scss/App.scss",
 		"/G/Dev/SushiArt/sushi-art/src/scss/admin.scss",
@@ -354,13 +399,10 @@
 		"/G/Dev/SushiArt/sushi-art/src/components/Admin.js",
 		"/G/Dev/SushiArt/sushi-art/src/scss/App.css",
 		"/G/Dev/SushiArt/sushi-art/package.json",
-		"/G/Dev/SushiArt/sushi-art/src/scss/header.scss",
 		"/G/Dev/SushiArt/sushi-art/src/scss/index.scss",
 		"/G/Dev/SushiArt/sushi-art/src/scss/base.scss",
-		"/G/Dev/SushiArt/sushi-art/src/components/App.js",
 		"/G/Dev/Hackernews/hackernews-react-apollo/src/components/Header.js",
 		"/G/Dev/Hackernews/hackernews-react-apollo/src/index.js",
-		"/G/Dev/SushiArt/sushi-art/src/index.js",
 		"/G/Dev/Hackernews/hackernews-react-apollo/src/components/App.js",
 		"/C/Users/William/.ssh/sourcetree.ppk",
 		"/C/Users/William/.ssh/sourcetree_will.ppk",
@@ -466,19 +508,11 @@
 		"/C/Atypon/source/github/atypon/styleguide/README.md",
 		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/widgets/controllers/contentDisplay/ListOfIssuesController.java",
 		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/acs/content/JournalRequest.java",
-		"/C/Users/William/Downloads/report (1).xml",
-		"/C/Users/William/Downloads/report (2).xml",
-		"/C/Users/William/Downloads/report.xml",
-		"/C/Users/William/Downloads/report.html",
-		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/frontend/graphql/content/type/IssueGroupTypeEnumProvider.java",
-		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/bridge/service/BackstageAreaTranslator.java",
-		"/C/Atypon/source/lit-1710/atypon/bridge/src/java/com/atypon/frontend/services/impl/LiteratumBackstageAreaTranslatorImpl.java",
-		"/C/Atypon/source/lit-1710/atypon/literatum/conf/literatum.props.xml",
-		"/C/Atypon/source/lit-1710/atypon/publish/src/java/com/atypon/publish/acs/metadata/IContentGroupType.java"
+		"/C/Users/William/Downloads/report (1).xml"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -548,6 +582,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".image",
+			"image",
+			"this.props.",
+			".image",
+			"image",
+			"checkAspectRatio",
+			"imageWithDims",
+			"testUpload",
+			"dims",
+			"_checkAspectRatio",
 			"showViewer",
 			"css",
 			"allLinksQuery",
@@ -665,17 +709,7 @@
 			"top content",
 			"group",
 			"meta-wrapper",
-			"{{serial}}",
-			"<i aria-hidden=\"true\" class=\"icon-Icon_Star-26\"></i>",
-			"article-tools",
-			"b83a9112-ff13-4233-be12-8a37252f58fb",
-			".support-feature",
-			"serial.",
-			"ISSN",
-			"issn",
-			"serial",
-			"group",
-			"table of contents"
+			"{{serial}}"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -703,38 +737,36 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/ImageUpload.js",
+					"file": "src/components/ImageList.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4089,
+						"buffer_size": 2235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1418,
-								1418
+								236,
+								236
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
@@ -742,19 +774,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/components/ImageList.js",
+					"file": "src/components/Image.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1580,
+						"buffer_size": 538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
+								286,
+								286
 							]
 						],
 						"settings":
@@ -769,61 +801,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/components/Image.js",
+					"file": "src/components/ImageUpload.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 309,
+						"buffer_size": 5475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4,
-								4
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 4,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "/G/Dev/Hackernews/hackernews-react-apollo/src/components/LinkList.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5938,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4123,
-								4123
+								2198,
+								2198
 							]
 						],
 						"settings":
@@ -833,62 +828,31 @@
 							"synced": false,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1824.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/scss/_variables.scss",
+					"buffer": 3,
+					"file": "src/components/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 547,
+						"buffer_size": 574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/scss/base.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 523,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								0
+								242,
+								242
 							]
 						],
 						"settings":
@@ -896,7 +860,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -907,20 +871,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/scss/header.scss",
+					"buffer": 4,
+					"file": "src/components/Header.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 453,
+						"buffer_size": 1071,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								868,
+								868
 							]
 						],
 						"settings":
@@ -928,7 +892,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -939,20 +903,158 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "src/scss/imageList.scss",
+					"buffer": 5,
+					"file": "src/components/Login.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 445,
+						"buffer_size": 1812,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								306,
-								306
+								631,
+								631
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 79.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "project.graphcool",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/constants.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "src/scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								213
 							]
 						],
 						"settings":
@@ -967,7 +1069,71 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/scss/base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/scss/imageList.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								943,
+								943
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -975,11 +1141,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 39.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -1001,7 +1167,7 @@
 		"cols":
 		[
 			0.0,
-			0.535795977696,
+			0.568778112373,
 			1.0
 		],
 		"rows":
@@ -1027,7 +1193,7 @@
 	"project": "sushiart-st-project.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

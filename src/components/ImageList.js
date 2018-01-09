@@ -34,6 +34,8 @@ class ImageList extends Component {
 							src
 							alt
 							description
+							width
+							height
 						}
 					}
 				}
@@ -98,6 +100,8 @@ const ALL_IMAGES = gql`
 	    alt
 	    src
 	    id
+	    width
+	    height
 	  }
 	}
 ` 

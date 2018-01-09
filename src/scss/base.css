@@ -16,6 +16,8 @@
     justify-content: center; }
   .flex-column {
     flex-direction: column; }
+  .flex--wrap {
+    flex-wrap: wrap; }
 
 main {
   margin-top: 50px;

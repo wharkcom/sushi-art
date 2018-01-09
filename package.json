@@ -5,6 +5,7 @@
   "dependencies": {
     "autoprefixer": "^7.1.2",
     "chokidar-cli": "^1.2.0",
+    "image-size": "^0.6.1",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.0.2",
     "postcss-cli": "^4.1.0",

@@ -4,12 +4,16 @@
   .imageWrapper img {
     height: 200px; }
   .imageWrapper .description {
-    display: none; }
-  .imageWrapper:hover .description {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fdfdfd;
     position: absolute;
     bottom: 10px;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    padding: 5px 0; }
+  .imageWrapper:hover .description {
+    display: block; }
 
 .overlay, .figureViewer, .modal {
   position: fixed;
@@ -23,10 +27,17 @@
   justify-content: center; }
   .figureViewer .imageWrapper {
     z-index: 2;
-    top: 5vh;
     position: relative; }
+    .figureViewer .imageWrapper .description {
+      font-size: 1.25rem;
+      position: relative;
+      bottom: 50px; }
   .figureViewer img {
-    height: 90vh; }
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-width: 100%;
+    max-height: 100%; }
 
 .modal {
   background: rgba(0, 0, 0, 0.5);

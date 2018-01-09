@@ -4,6 +4,7 @@ import '../scss/App.css';
 import ImageList from './ImageList';
 import Header from './Header';
 import Admin from './Admin';
+import Login from './Login';
 
 class App extends Component {
 	render() {
@@ -12,6 +13,7 @@ class App extends Component {
 				<Header />
 				<main>
 					<Switch>
+						<Route exact path='/login' component={Login} />
 						<Route exact path='/' component={ImageList} />
 						<Route exact path='/admin' component={Admin} />
 					</Switch>

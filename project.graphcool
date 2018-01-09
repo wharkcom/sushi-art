@@ -1,37 +1,50 @@
 # project: cj6puih7d10nn01813mxzas0i
-# version: 1
+# version: 15
 
-
-###########################################################################
-# `User` and `File` are generated and have special characteristics.
-# You can read about them in the documentation:
-# https://www.graph.cool/docs/reference/schema/system-artifacts-uhieg2shio/
-###########################################################################
-
-type User {
+type User @model {
   id: ID! @isUnique
   createdAt: DateTime!
   updatedAt: DateTime!
+  email: String @isUnique
+  password: String
 }
 
-type File {
-  id: ID! @isUnique
+type Category @model {
   createdAt: DateTime!
+  id: ID! @isUnique
+  images: [Image!]! @relation(name: "CategoryOnImage")
+  title: String
   updatedAt: DateTime!
+  description: String
+}
+
+type File @model {
   contentType: String!
+  createdAt: DateTime!
+  id: ID! @isUnique
   name: String!
   secret: String! @isUnique
   size: Int!
+  updatedAt: DateTime!
   url: String! @isUnique
+  image: Image @relation(name: "FileOnImage")
 }
 
+type Image @model {
+  categories: [Category!]! @relation(name: "CategoryOnImage")
+  createdAt: DateTime!
+  description: String
+  id: ID! @isUnique
+  src: String
+  updatedAt: DateTime!
+  alt: String!
+  file: File @relation(name: "FileOnImage")
+  height: Int
+  width: Int
+}
 
-###########################################################################
-# You can easily add custom definitions, `Tweet` below is an example.
-# If you want to add `Tweet` to your schema,
-# remove the below comments and run `graphcool push`.
-###########################################################################
-
-# type Tweet {
-#   text: String!
-# }
+type Subcategory @model {
+  createdAt: DateTime!
+  id: ID! @isUnique
+  updatedAt: DateTime!
+}

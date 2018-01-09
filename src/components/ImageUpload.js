@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { graphql, gql, compose } from 'react-apollo'
 import Dropzone from 'react-dropzone'
+import sizeOf from 'image-size' //For image size calc
+import url from 'url' //For image size calc
+import http from 'http' //For image size calc
 
 // Reference: https://github.com/graphcool-examples/react-graphql/blob/master/files-with-apollo/src/components/CreatePage.js
 class ImageUpload extends Component {
@@ -10,6 +13,8 @@ class ImageUpload extends Component {
     description: '',
     src: '',
     fileId: '',
+    width: '',
+    height: '',
     success: false
   }
 
@@ -65,6 +70,28 @@ class ImageUpload extends Component {
       </div>
     )
   }
+  
+  setAspectRatio = (image) => {
+    // Following 'Using a URL' from https://www.npmjs.com/package/image-size
+    var options = url.parse(image.url)
+    // Have to redefine global 'this' since http.get defines its own 'this'
+    var that = this
+
+    http.get(options, function (response) {
+      var chunks = [];
+      response.on('data', function (chunk) {
+        chunks.push(chunk);
+      }).on('end', function() {
+        var buffer = Buffer.concat(chunks);
+        var dims = sizeOf(buffer)
+        // Adding dimensions to the state
+        that.setState({
+          width: dims.width,
+          height: dims.height
+        })
+      });
+    });
+  }
 
   onDrop = (files) => {
     // prepare form data, use data key!
@@ -82,16 +109,21 @@ class ImageUpload extends Component {
         fileId: image.id,
         src: image.url,
       })
+      // I'm setting the width/height values separately since http.get doesn't return a promise. This shouldn't be a problem since the values will be set by the time the user actually clicks to upload the image. At some point, I should add a check on the state.width/height values and not allow upload until they are set.
+      this.setAspectRatio(image)
+      return image
     })
   }
 
   _imageUpload = async () => {
-    const {alt, description, src, fileId} = this.state
+    const {alt, description, src, fileId, width, height} = this.state
     await this.props.uploadImageMutation({
       variables: {
         alt,
         description,
-        src
+        src,
+        width,
+        height
       }
     }).then(({data}) => {
       this.props.relateImageMutation({
@@ -106,25 +138,32 @@ class ImageUpload extends Component {
         description: '',
         src: '',
         fileId: '',
+        width: '',
+        height: '',
         success: true
       })
     )
     // window.location.pathname = '/admin'
   }
+
 }
 
 const UPLOAD_IMAGE_MUTATION = gql`
-  mutation UploadImageMutation($description: String, $alt: String!, $src: String!) {
+  mutation UploadImageMutation($description: String, $alt: String!, $src: String!, $width: Int, $height: Int) {
     createImage(
       description: $description,
       alt: $alt,
       src: $src,
+      width: $width,
+      height: $height
     ) {
       id
       createdAt
       description
       alt
       src
+      width
+      height
     }
   }
 ` 
